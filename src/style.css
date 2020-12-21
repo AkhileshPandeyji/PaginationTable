@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    padding: 0;
+    margin:0;
+}
+.list-table{
+    height:500px;
+    overflow: auto;
+    width:1010px;
+    margin:20px auto 0px auto;
+}
+.list-controller{
+    margin:0px auto 0px auto;
+    width:1010px;
+    border:2px solid black;
+    height:50px;
+    display: flex;
+    align-items: center;
+}
+.table-heading{
+    width:400px;
+    height:60px;
+    font-size: 2rem;
+    border:none;
+    border-bottom:2px solid black;
+}
+.table-heading:nth-child(1){
+    width:200px;
+    height: 60px;
+    font-size: 2rem;
+}
+.table-body-cell{
+    height:40px;
+    font-size: 1rem;
+    vertical-align: middle;
+    text-align: center;
+    border:none;
+}
+.list-table table tbody tr:nth-child(odd){
+    background: rgb(185, 179, 179);
+}
+.list-table table tbody tr:nth-child(even){
+    background: rgb(219, 215, 215);
+}
+table{
+    border:2px solid black;
+}
+.list-controller button{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.list-controller select{
+    margin-left: 50%;
+    width:100px;
+    height: 20px;
+    font-size: 1rem;
+}
+.list-controller-page{
+    width:50px;
+    height:20px;
+    background: rgb(235, 235, 235);
+    border:1px solid rgb(211, 204, 204);
+    text-align: center;
+}
